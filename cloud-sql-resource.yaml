@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: payments-db
+  description: Base de datos PostgreSQL en Cloud SQL
+spec:
+  type: database
+  owner: platform-team
+  system: fintech-platform

@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: cloud-run-payments
+  description: Servicio Cloud Run para payments-api
+spec:
+  type: cloud-run-service
+  owner: platform-team
+  system: fintech-platform

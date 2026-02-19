@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: payments-api
+  description: API REST de pagos
+spec:
+  type: openapi
+  lifecycle: production
+  owner: platform-team
+  system: fintech-platform
+  definition:
+    $text: ./openapi.yaml
